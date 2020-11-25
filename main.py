@@ -32,4 +32,9 @@ for numbers in database.numbers:
 final_password.extend(password + password_2 + password_3)
 
 random.shuffle(final_password)
-print(final_password)
+
+final_password_str = ""
+for char in final_password:
+    final_password_str += char
+
+print(final_password_str)
