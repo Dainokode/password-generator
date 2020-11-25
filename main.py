@@ -37,4 +37,4 @@ final_password_str = ""
 for char in final_password:
     final_password_str += char
 
-print(final_password_str)
+print(f"Your password is: {final_password_str}")
